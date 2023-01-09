@@ -1,4 +1,4 @@
-package fuzz
+package fuzzColorLookup
 
 import "github.com/ajstarks/giocanvas"
 
