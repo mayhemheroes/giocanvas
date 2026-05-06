@@ -1,5 +1,5 @@
 # FROM fuzzers/go-fuzz:1.2.0
-FROM golang:1.23 as builder
+FROM golang:1.25 AS builder
 
 COPY . /giocanvas
 WORKDIR /giocanvas/mayhem
